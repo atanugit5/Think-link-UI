@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+.category {
+  display: grid;
+  grid-template-columns: 17% 83%;
+  justify-content: space-between;
+
+  height: 200px;
+}

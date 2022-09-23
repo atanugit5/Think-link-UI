@@ -1,0 +1,60 @@
+.navbar {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 20% 63% 17%;
+  justify-content: space-between;
+  background-color: rgb(143, 32, 32);
+  color: white;
+}
+
+.navbar > p {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 30px;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.searchDiv {
+  width: 350px;
+  height: 25px;
+  background-color: white;
+  color: white;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+.searchDiv > input {
+  width: 250px;
+  height: 20px;
+  margin: 0px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+.searchDiv > i {
+  color: rgb(145, 139, 139);
+}
+.profileDiv {
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+.profileDiv > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.profileDiv > i:first-child {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+.profileDiv > i:last-child {
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+.profileDiv > p {
+  margin-left: 20px;
+  letter-spacing: 0.03rem;
+}
